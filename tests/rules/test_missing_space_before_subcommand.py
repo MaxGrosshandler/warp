@@ -1,7 +1,7 @@
 import pytest
-from thefuck.rules.missing_space_before_subcommand import (
+from warp.rules.missing_space_before_subcommand import (
     match, get_new_command)
-from thefuck.types import Command
+from warp.types import Command
 
 
 @pytest.fixture(autouse=True)

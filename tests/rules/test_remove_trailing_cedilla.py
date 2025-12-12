@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.remove_trailing_cedilla import match, get_new_command, CEDILLA
-from thefuck.types import Command
+from warp.rules.remove_trailing_cedilla import match, get_new_command, CEDILLA
+from warp.types import Command
 
 
 @pytest.mark.parametrize('command', [

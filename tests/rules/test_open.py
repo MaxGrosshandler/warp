@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.open import is_arg_url, match, get_new_command
-from thefuck.types import Command
+from warp.rules.open import is_arg_url, match, get_new_command
+from warp.types import Command
 
 
 @pytest.fixture

@@ -1,7 +1,7 @@
 import pytest
 from io import BytesIO
-from thefuck.rules.gradle_no_task import match, get_new_command
-from thefuck.types import Command
+from warp.rules.gradle_no_task import match, get_new_command
+from warp.types import Command
 
 gradle_tasks = b'''
 :tasks

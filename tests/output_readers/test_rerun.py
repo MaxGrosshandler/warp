@@ -5,7 +5,7 @@ import sys
 from mock import Mock, patch
 from psutil import AccessDenied, TimeoutExpired
 
-from thefuck.output_readers import rerun
+from warp.output_readers import rerun
 
 
 class TestRerun(object):

@@ -1,7 +1,7 @@
 import pytest
 
-from thefuck.rules.conda_mistype import match, get_new_command
-from thefuck.types import Command
+from warp.rules.conda_mistype import match, get_new_command
+from warp.types import Command
 
 
 @pytest.fixture

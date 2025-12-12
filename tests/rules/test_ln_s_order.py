@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.ln_s_order import match, get_new_command
-from thefuck.types import Command
+from warp.rules.ln_s_order import match, get_new_command
+from warp.types import Command
 
 
 @pytest.fixture

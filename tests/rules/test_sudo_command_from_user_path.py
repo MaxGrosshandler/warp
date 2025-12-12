@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.sudo_command_from_user_path import match, get_new_command
-from thefuck.types import Command
+from warp.rules.sudo_command_from_user_path import match, get_new_command
+from warp.types import Command
 
 
 output = 'sudo: {}: command not found'

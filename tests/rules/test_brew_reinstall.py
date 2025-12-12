@@ -1,6 +1,6 @@
 import pytest
-from thefuck.types import Command
-from thefuck.rules.brew_reinstall import get_new_command, match
+from warp.types import Command
+from warp.rules.brew_reinstall import get_new_command, match
 
 
 output = ("Warning: thefuck 9.9 is already installed and up-to-date\nTo "

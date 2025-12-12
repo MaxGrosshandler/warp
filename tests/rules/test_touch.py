@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.touch import match, get_new_command
-from thefuck.types import Command
+from warp.rules.touch import match, get_new_command
+from warp.types import Command
 
 
 def output(is_bsd):

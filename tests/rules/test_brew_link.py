@@ -1,6 +1,6 @@
 import pytest
-from thefuck.types import Command
-from thefuck.rules.brew_link import get_new_command, match
+from warp.types import Command
+from warp.rules.brew_link import get_new_command, match
 
 
 @pytest.fixture

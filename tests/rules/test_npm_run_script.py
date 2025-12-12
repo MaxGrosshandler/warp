@@ -1,7 +1,7 @@
 import pytest
 from io import BytesIO
-from thefuck.rules.npm_run_script import match, get_new_command
-from thefuck.types import Command
+from warp.rules.npm_run_script import match, get_new_command
+from warp.types import Command
 
 output = '''
 Usage: npm <command>

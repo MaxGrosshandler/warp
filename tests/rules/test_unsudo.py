@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.unsudo import match, get_new_command
-from thefuck.types import Command
+from warp.rules.unsudo import match, get_new_command
+from warp.types import Command
 
 
 @pytest.mark.parametrize('output', [

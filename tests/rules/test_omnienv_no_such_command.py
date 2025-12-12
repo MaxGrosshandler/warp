@@ -1,7 +1,7 @@
 import pytest
 
-from thefuck.rules.omnienv_no_such_command import get_new_command, match
-from thefuck.types import Command
+from warp.rules.omnienv_no_such_command import get_new_command, match
+from warp.types import Command
 
 
 @pytest.fixture

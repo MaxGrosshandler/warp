@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from thefuck.shells import Generic
+from warp.shells import Generic
 
 
 class TestGeneric(object):

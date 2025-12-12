@@ -2,7 +2,7 @@
 
 import os
 import pytest
-from thefuck.shells import Bash
+from warp.shells import Bash
 
 
 @pytest.mark.usefixtures('isfile', 'no_memoize', 'no_cache')

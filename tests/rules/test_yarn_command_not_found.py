@@ -2,8 +2,8 @@
 
 from io import BytesIO
 import pytest
-from thefuck.types import Command
-from thefuck.rules.yarn_command_not_found import match, get_new_command
+from warp.types import Command
+from warp.rules.yarn_command_not_found import match, get_new_command
 
 output = '''
 error Command "{}" not found.

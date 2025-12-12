@@ -1,6 +1,6 @@
 from mock import Mock
 import pytest
-from thefuck.entrypoints.alias import _get_alias, print_alias
+from warp.entrypoints.alias import _get_alias, print_alias
 
 
 @pytest.mark.parametrize(

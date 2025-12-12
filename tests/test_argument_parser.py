@@ -1,6 +1,6 @@
 import pytest
-from thefuck.argument_parser import Parser
-from thefuck.const import ARGUMENT_PLACEHOLDER
+from warp.argument_parser import Parser
+from warp.const import ARGUMENT_PLACEHOLDER
 
 
 def _args(**override):

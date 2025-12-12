@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from thefuck.shells.tcsh import Tcsh
+from warp.shells.tcsh import Tcsh
 
 
 @pytest.mark.usefixtures('isfile', 'no_memoize', 'no_cache')

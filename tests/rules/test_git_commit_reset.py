@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.git_commit_reset import match, get_new_command
-from thefuck.types import Command
+from warp.rules.git_commit_reset import match, get_new_command
+from warp.types import Command
 
 
 @pytest.mark.parametrize('script, output', [

@@ -1,8 +1,8 @@
 import os
 import pytest
-from thefuck import shells
-from thefuck import conf, const
-from thefuck.system import Path
+from warp import shells
+from warp import conf, const
+from warp.system import Path
 
 shells.shell = shells.Generic()
 

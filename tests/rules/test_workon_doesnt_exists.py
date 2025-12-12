@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.workon_doesnt_exists import match, get_new_command
-from thefuck.types import Command
+from warp.rules.workon_doesnt_exists import match, get_new_command
+from warp.types import Command
 
 
 @pytest.fixture(autouse=True)

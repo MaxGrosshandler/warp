@@ -1,5 +1,5 @@
-from thefuck.rules.python_command import match, get_new_command
-from thefuck.types import Command
+from warp.rules.python_command import match, get_new_command
+from warp.types import Command
 
 
 def test_match():

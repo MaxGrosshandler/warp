@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from thefuck.const import ARGUMENT_PLACEHOLDER
-from thefuck.shells import Fish
+from warp.const import ARGUMENT_PLACEHOLDER
+from warp.shells import Fish
 
 
 @pytest.mark.usefixtures('isfile', 'no_memoize', 'no_cache')

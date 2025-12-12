@@ -1,8 +1,8 @@
 import pytest
 from mock import patch
-from thefuck.rules import pacman_not_found
-from thefuck.rules.pacman_not_found import match, get_new_command
-from thefuck.types import Command
+from warp.rules import pacman_not_found
+from warp.rules.pacman_not_found import match, get_new_command
+from warp.types import Command
 
 PKGFILE_OUTPUT_LLC = '''extra/llvm 3.6.0-5      /usr/bin/llc
 extra/llvm35 3.5.2-13/usr/bin/llc'''

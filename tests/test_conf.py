@@ -2,7 +2,7 @@ import pytest
 import six
 import os
 from mock import Mock
-from thefuck import const
+from warp import const
 
 
 @pytest.fixture

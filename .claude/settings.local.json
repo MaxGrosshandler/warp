@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "WebSearch",
+      "Bash(find:*)",
+      "Bash(if [ -f fuck.bat ])",
+      "Bash(then mv fuck.bat warp.bat)",
+      "Bash(fi)",
+      "Bash(if [ -f fuck.ps1 ])",
+      "Bash(then mv fuck.ps1 warp.ps1)",
+      "Bash(python -m pytest:*)",
+      "Bash(python -c \"import sys; sys.path.insert(0, ''.''); from warp.rules import claude_cli_typo; print(''Claude CLI typo rule imported successfully'')\")",
+      "Bash(ls:*)"
+    ]
+  }
+}

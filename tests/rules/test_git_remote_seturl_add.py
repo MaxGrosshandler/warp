@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.git_remote_seturl_add import match, get_new_command
-from thefuck.types import Command
+from warp.rules.git_remote_seturl_add import match, get_new_command
+from warp.types import Command
 
 
 @pytest.mark.parametrize('command', [

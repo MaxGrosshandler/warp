@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.scm_correction import match, get_new_command
-from thefuck.types import Command
+from warp.rules.scm_correction import match, get_new_command
+from warp.types import Command
 
 
 @pytest.fixture

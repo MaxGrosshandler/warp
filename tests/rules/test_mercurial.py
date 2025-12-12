@@ -1,7 +1,7 @@
 import pytest
 
-from thefuck.types import Command
-from thefuck.rules.mercurial import (
+from warp.types import Command
+from warp.rules.mercurial import (
     extract_possibilities, match, get_new_command
 )
 
